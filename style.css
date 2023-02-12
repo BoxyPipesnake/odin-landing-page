@@ -34,14 +34,10 @@ ul {
 }
 
 .hero {
-    /* background-color: var(--dark-bg); */
-    /* background-image: url(images/gym-bg.jpg); */
-    background: linear-gradient(rgb(4 0 0 / 33%), rgb(12 9 9 / 60%)), url(./images/gym-bg.jpg);
+    background: linear-gradient(rgb(11 10 10 / 50%), rgb(0 0 0 / 86%)), url(./images/gym-bg.jpg);
     background-size: cover;
     height: 80vh;
     color: var(--header-text);
-    /* width: 80%;
-    margin: 0 auto; */
 }
 
 .hero a {
@@ -92,16 +88,8 @@ ul {
     width: 27%;
 }
 
-.img-container {
-    width: 568px;
-    height: 220px;
-    background-color: red;  
-}
-
 .section-1 {
-    /* margin-top: 3rem; */
     text-align: center;
-    /* background-color: white; */
 }
 
 
@@ -125,7 +113,7 @@ ul {
     width: 200px;
     height: 200px;
     margin-bottom: 0.7rem;
-    border: 5px solid var(--cta-button);
+    border: 5px solid orange;
     border-radius: 10px;
 }
 
@@ -138,6 +126,7 @@ ul {
 
 .section-2 {
     padding: 10rem;
+    background-color: rgb(72 57 71);
 }
 
 
@@ -156,7 +145,6 @@ ul {
 }
 
 .section-3 {
-    /* background-color: white; */
     padding: 7rem;
 }
 
@@ -172,7 +160,7 @@ ul {
 .cta-container {
     width: 80%;
     margin: 0 auto;
-    /* background-color: var(--cta-button); */
+    background-color: darkviolet;
     padding: 3rem;
     border-radius: 10px;
     display: flex;
@@ -182,6 +170,7 @@ ul {
 .footer {
     text-align: center;
     padding: 3rem;
+    background-color: rgb(72 57 71);
 }
 
 .footer > p {
